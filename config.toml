@@ -1,0 +1,26 @@
+baseURL = 'http://r9s.dev/'
+languageCode = 'en-us'
+title = 'r9s.dev - Markus Rothlübbers'
+theme = 'PaperMod'
+defaultTheme = 'auto'
+
+[params]
+[params.profileMode]
+enabled = true
+title = 'Moin 👋'
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/klitztuch"
+
+[[params.socialIcons]]
+name = "gitlab"
+url = "https://gitlab.com/klitztuch"
+
+[[params.socialIcons]]
+name = "keybase"
+url = "https://keybase.io/klitztuch"
+
+[[params.socialIcons]]
+name = "strava"
+url = "https://www.strava.com/athletes/klitztuch"
