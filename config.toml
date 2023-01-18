@@ -18,5 +18,9 @@ name = "keybase"
 url = "https://keybase.io/klitztuch"
 
 [[params.socialIcons]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/markus-rothl%C3%BCbbers-58420b18b/"
+
+[[params.socialIcons]]
 name = "strava"
 url = "https://www.strava.com/athletes/klitztuch"
