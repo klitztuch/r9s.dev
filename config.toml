@@ -14,12 +14,11 @@ name = "github"
 url = "https://github.com/klitztuch"
 
 [[params.socialIcons]]
-name = "gitlab"
-url = "https://gitlab.com/klitztuch"
-
-[[params.socialIcons]]
 name = "keybase"
 url = "https://keybase.io/klitztuch"
+
+[[params.socialIcons]]
+name = "key"
 
 [[params.socialIcons]]
 name = "strava"
