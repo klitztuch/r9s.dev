@@ -1,4 +1,4 @@
-baseURL = 'http://r9s.dev/'
+baseURL = 'https://r9s.dev/'
 languageCode = 'en-us'
 title = 'r9s.dev - Markus Rothlübbers'
 theme = 'PaperMod'
