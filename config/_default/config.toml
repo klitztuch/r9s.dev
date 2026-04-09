@@ -5,9 +5,15 @@ theme = 'PaperMod'
 defaultTheme = 'auto'
 
 [params]
+description = "Hi, I'm Markus — software engineer. Find me on GitHub, LinkedIn, and Strava."
+author = "Markus Rothlübbers"
+
 [params.profileMode]
 enabled = true
 title = 'Moin 👋'
+
+[params.schema]
+publisherType = "Person"
 
 [[params.socialIcons]]
 name = "github"
