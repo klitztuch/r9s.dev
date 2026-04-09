@@ -3,17 +3,12 @@ name = "r9s-dev"
 pages_build_output_dir = "public"
 compatibility_date = "2026-04-07"
 
-[build]
-command = "hugo --cleanDestinationDir"
-
 [vars]
 HUGO_VERSION = "0.160.1"
 
 [env.production]
 compatibility_date = "2026-04-07"
 
-[env.production.build]
-command = "hugo --cleanDestinationDir --environment production"
 
 [env.production.vars]
 HUGO_VERSION = "0.160.1"
