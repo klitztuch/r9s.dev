@@ -4,12 +4,12 @@
 		"global_fetch_strictly_public"
 	],
 	"name": "r9s-dev",
-	"main": "@astrojs/cloudflare/entrypoints/server",
+	"main": "./dist/server/entry.mjs",
 	"build": {
-		"command": "npm run build"
+		"command": "npx astro build"
 	},
 	"assets": {
-		"directory": "./dist",
+		"directory": "./dist/client",
 		"binding": "ASSETS"
 	},
 	"observability": {
