@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://r9s.dev/sitemap-index.xml

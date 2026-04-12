@@ -1,0 +1,21 @@
+---
+import { Icon } from 'astro-icon/components';
+
+interface Props {
+  name: string;
+  url: string;
+  label: string;
+}
+
+const { name, url, label } = Astro.props;
+---
+
+<a
+  href={url}
+  target="_blank"
+  rel="noopener noreferrer"
+  aria-label={label}
+  class="text-zinc-500 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-zinc-100 transition-colors duration-150"
+>
+  <Icon name={name} class="size-6" />
+</a>

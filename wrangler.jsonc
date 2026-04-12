@@ -1,0 +1,16 @@
+{
+	"name": "r9s-dev",
+	"compatibility_date": "2026-04-11",
+	"compatibility_flags": [
+		"global_fetch_strictly_public"
+	],
+	"build": {
+		"command": "npx astro build"
+	},
+	"assets": {
+		"directory": "./dist"
+	},
+	"observability": {
+		"enabled": true
+	}
+}
